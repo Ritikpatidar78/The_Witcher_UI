@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Josefin Slab', serif;
+    /* transition: all ease-in-out 0.2s; */
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    background-image: url(./assets/witcher.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100wh;
+}
+ul{
+    list-style: none;
+}
+aside{
+    border-right: 1px solid gray;
+}
+aside img{
+    height: 70px;
+    margin: 10px;
+}
+aside ul li{
+    font-size: 18px;
+    color: gray;
+    margin: 28px;
+    cursor: pointer;
+}
+aside ul li:hover{
+    color: white;
+}
+.up{
+    margin-bottom: 60px;
+   
+}
+.down{
+    border-top: 1px solid gray;
+}
+.container{
+    width: 100%;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    padding: 30px 200px;
+    justify-content: space-between;
+    color:rgb(176, 172, 172);
+    font-weight: 700;
+    cursor: pointer;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+}
+nav ul li:hover{
+    color: #FCBB89;
+    /* padding-bottom: 28px; */
+    border-bottom: 2px solid #FCBB89;
+}
+.detail{
+    height: 85%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(176, 172, 172);
+    padding: 20px 80px;
+    margin-top: 5px;
+
+}
+p{
+    font-size: 14px;
+    margin-top: 60px;
+    font-weight: 500;
+}
+h1{
+    color: rgb(224, 222, 222);
+    font-size: 15px;
+}
+h2{
+    font-size: 14px;
+}
+.location{
+    padding: 10px 20px;
+    border: 1px solid #9e7555;
+    border-radius: 20px;
+    background-color: #2c3232;
+    position: relative;
+}
+.rbtc{
+    position: absolute;
+    top: 40%;
+    right: -10px;
+
+}
+.lbtc{
+    position: absolute;
+    top: 40%;
+    left: -10px;
+
+}
+button{
+    background-color: #1E2121;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #9e7555;
+    border-radius: 50%;
+    color: white;
+}
+.detail img{
+    height: 200px;
+    /* margin-left: 100px; */
+}
+@media (max-width: 1000px ){
+    nav ul{
+        padding: 20px 30px;
+    }
+    .detail{
+        width: 60%;
+    }
+    p{
+        margin-top: 10px;
+    }
+}
